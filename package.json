@@ -1,5 +1,5 @@
 {
-  "name": "docdash",
+  "name": "@flavioespinoza/docdash",
   "version": "1.0.0",
   "description": "A simple JSDoc to Markdown documentation generator.",
   "license": "MIT",
