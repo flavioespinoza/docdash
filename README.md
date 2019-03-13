@@ -6,12 +6,12 @@ A simple JSDoc to Markdown documentation generator.
 
 yarn
 ```bash {.copy-clip}
-yarn add @flavioespinoza/docdash
+yarn add @flavs/docdash
 ```
 
 npm
 ```bash {.copy-clip}
-npm i @flavioespinoza/docdash
+npm i @flavs/docdash
 ```
 
 ## Usage

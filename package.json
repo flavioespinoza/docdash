@@ -1,6 +1,6 @@
 {
-  "name": "@flavioespinoza/docdash",
-  "version": "1.0.1",
+  "name": "@flavs/docdash",
+  "version": "1.0.2",
   "description": "lodash inspired docs with jsDoc symantics",
   "main": "index.js",
   "directories": {
