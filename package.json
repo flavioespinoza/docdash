@@ -1,0 +1,47 @@
+{
+  "name": "docdash",
+  "version": "1.0.0",
+  "description": "A simple JSDoc to Markdown documentation generator.",
+  "license": "MIT",
+  "main": "index.js",
+  "private": false,
+  "bin": {
+    "docdash": "bin/docdash"
+  },
+  "keywords": [
+    "documentation",
+    "jsdoc",
+    "markdown"
+  ],
+  "author": "Flavio Espinoza <flavio.espinoza@gmail.com>",
+  "contributors": [
+    "John-David Dalton <john.david.dalton@gmail.com>",
+    "Mathias Bynens <mathias@qiwi.be>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flavioespinoza/docdash.git"
+  },
+  "dependencies": {
+    "doctrine": "3.0.0",
+    "lodash": "^4.17.11"
+  },
+  "scripts": {
+    "doc": "node bin/docdash index.js doc/README.md style=github title=\"docdash <sup>v${npm_package_version}</sup>\" url=https://github.com/flavioespinoza/docdash/blob/${npm_package_version}/index.js",
+    "test": "true"
+  },
+  "files": [
+    "index.js",
+    "bin",
+    "lib"
+  ],
+  "bugs": {
+    "url": "https://github.com/flavioespinoza/docdash"
+  },
+  "homepage": "https://github.com/flavioespinoza/docdash#readme",
+  "directories": {
+    "doc": "doc",
+    "lib": "lib"
+  },
+  "devDependencies": {}
+}
