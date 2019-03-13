@@ -1,6 +1,18 @@
-# docdash v1.0.0
+# docdash
 
 A simple JSDoc to Markdown documentation generator.
+
+## Install
+
+yarn
+```bash {.copy-clip}
+yarn add @flavioespinoza/docdash
+```
+
+npm
+```bash {.copy-clip}
+npm i @flavioespinoza/docdash
+```
 
 ## Usage
 
