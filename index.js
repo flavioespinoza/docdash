@@ -3,12 +3,12 @@
  * Copyright 2019 Flavio Espinoza
  * Available under MIT license
  */
-'use strict';
+'use strict'
 
-var _ = require('lodash'),
-    fs = require('fs'),
-    path = require('path'),
-    generator = require('./lib/generator.js');
+var _ = require('lodash')
+var fs = require('fs')
+var path = require('path')
+var generator = require('./lib/generator.js')
 
 /**
  * Generates Markdown documentation based on JSDoc comments.
@@ -24,18 +24,18 @@ var _ = require('lodash'),
  * @returns {string} The generated Markdown code.
  */
 function docdash(options) {
-  options = _.defaults(options, {
-    'lang': 'js',
-    'sort': true,
-    'style': 'default',
-    'title': path.basename(options.path) + ' API documentation',
-    'toc': 'properties'
-  });
+    options = _.defaults(options, {
+        lang: 'js',
+        sort: true,
+        style: 'default',
+        title: path.basename(options.path) + ' API documentation',
+        toc: 'properties'
+    })
 
-  if (!options.path || !options.url) {
-    throw new Error('Path and URL must be specified');
-  }
-  return generator(fs.readFileSync(options.path, 'utf8'), options);
+    if (!options.path || !options.url) {
+        throw new Error('Path and URL must be specified')
+    }
+    return generator(fs.readFileSync(options.path, 'utf8'), options)
 }
 
-module.exports = docdash;
+module.exports = docdash

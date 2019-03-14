@@ -17,7 +17,7 @@ npm i @flavs/docdash
 ## Usage
 
 ```js
-var docdash = require('docdash');
+var docdash = require('@flavs/docdash');
 
 var markdown = docdash({
   'path': filepath,
