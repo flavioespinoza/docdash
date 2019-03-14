@@ -7,11 +7,16 @@ var path = require('path')
 var url = require('url')
 
 /** Load other modules */
+var log = require('ololog')
 var _ = require('lodash')
 var docdash = require('../index.js')
 
 /** The list of arguments provided */
 var argv = process.argv
+
+/*----------------------------------------------------------------------------*/
+
+log.lightCyan('dodash commencing')
 
 /*----------------------------------------------------------------------------*/
 
