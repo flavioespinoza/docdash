@@ -2,7 +2,7 @@
 'use strict'
 
 /** Load Node.js modules */
-var fs = require('fs')
+import fs from 'fs'
 var path = require('path')
 var url = require('url')
 
@@ -16,7 +16,7 @@ var argv = process.argv
 
 /*----------------------------------------------------------------------------*/
 
-log.lightCyan('dodash commencing')
+log.lightCyan('docdash commencing')
 
 /*----------------------------------------------------------------------------*/
 
