@@ -19,5 +19,5 @@ install:
   - npm i
 
 script:
-  - ./bin/docdash ./node_modules/lodash/lodash.js output.md toc=categories url=https://github.com/lodash/lodash/blob/master/lodash.js
+  - ./bin/docdash ./node_modules/docdash/docdash.js output.md toc=categories url=https://github.com/flavioespinoza/docdash/blob/master/docdash.js
   - cat output.md
