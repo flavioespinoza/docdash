@@ -25,17 +25,14 @@ var generator = require('./lib/generator.js')
  */
 const log = require('ololog')
 
-
 function docdash(options) {
     options = _.defaults(options, {
         lang: 'js',
-        sort: true,
+        sort: false,
         style: 'default',
         title: path.basename(options.path) + ' API documentation',
         toc: 'properties'
     })
-
-    log.cyan(options)
     if (!options.path || !options.url) {
         throw new Error('Path and URL must be specified')
     }

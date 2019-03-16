@@ -26,12 +26,13 @@ data-uri-to-buffer@^2.0.0:
   dependencies:
     "@types/node" "^8.0.7"
 
-doctrine@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/doctrine/-/doctrine-3.0.0.tgz#addebead72a6574db783639dc87a121773973961"
-  integrity sha512-yS+Q5i3hBf7GBkd4KG8a7eBNNWNGLTaEwwYWUijIYM7zrlYDM0BFXHjjPWlWZ1Rg7UaddZeIDmi9jF3HmqiQ2w==
+doctrine@2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/doctrine/-/doctrine-2.0.0.tgz#c73d8d2909d22291e1a007a395804da8b665fe63"
+  integrity sha1-xz2NKQnSIpHhoAejlYBNqLZl/mM=
   dependencies:
     esutils "^2.0.2"
+    isarray "^1.0.0"
 
 esutils@^2.0.2:
   version "2.0.2"
@@ -45,6 +46,11 @@ get-source@^1.0.32:
   dependencies:
     data-uri-to-buffer "^2.0.0"
     source-map "^0.6.1"
+
+isarray@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/isarray/-/isarray-1.0.0.tgz#bb935d48582cba168c06834957a54a3e07124f11"
+  integrity sha1-u5NdSFgsuhaMBoNJV6VKPgcSTxE=
 
 lodash@^4.17.11:
   version "4.17.11"
