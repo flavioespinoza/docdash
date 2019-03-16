@@ -23,6 +23,9 @@ var generator = require('./lib/generator.js')
  * @param {string} [options.toc='properties'] The table of contents organization style ('categories' or 'properties').
  * @returns {string} The generated Markdown code.
  */
+const log = require('ololog')
+
+
 function docdash(options) {
     options = _.defaults(options, {
         lang: 'js',
@@ -32,6 +35,7 @@ function docdash(options) {
         toc: 'properties'
     })
 
+    log.cyan(options)
     if (!options.path || !options.url) {
         throw new Error('Path and URL must be specified')
     }
