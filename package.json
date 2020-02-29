@@ -1,6 +1,6 @@
 {
   "name": "@flavs/docdash",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "lodash inspired docs with jsDoc symantics",
   "main": "index.js",
   "directories": {
@@ -26,7 +26,7 @@
   "homepage": "https://github.com/flavioespinoza/docdash#readme",
   "dependencies": {
     "doctrine": "2.0.0",
-    "lodash": "^4.17.11",
+    "lodash": "4.17.15",
     "ololog": "^1.1.120"
   },
   "devDependencies": {}
